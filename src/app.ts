@@ -12,7 +12,7 @@ app.use(cors());
 app.use(express.json());
 
 connect().then(() => {
-    console.log(`⚡️ ~ MongoDB connected ~  `);
+    console.log(`⚡️ ~ MongoDB connected  `);
 });
 
 // Routes
